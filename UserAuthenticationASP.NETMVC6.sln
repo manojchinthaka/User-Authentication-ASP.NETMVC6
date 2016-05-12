@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A22F9731-E648-4F32-90F7-B73E374448D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CAD51B33-D1B9-4064-A87A-3FB3F8B8EE0B}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "UserAuthenticationASP.NETMVC6", "src\UserAuthenticationASP.NETMVC6\UserAuthenticationASP.NETMVC6.xproj", "{D126EE35-859D-45D9-8AA0-B93BBC764D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D126EE35-859D-45D9-8AA0-B93BBC764D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D126EE35-859D-45D9-8AA0-B93BBC764D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D126EE35-859D-45D9-8AA0-B93BBC764D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D126EE35-859D-45D9-8AA0-B93BBC764D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D126EE35-859D-45D9-8AA0-B93BBC764D22} = {A22F9731-E648-4F32-90F7-B73E374448D4}
+	EndGlobalSection
+EndGlobal
